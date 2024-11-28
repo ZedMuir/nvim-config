@@ -36,8 +36,3 @@ keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 -- move lines/blocks of code
 -- keymap.set("n", "<leader>cj", ":m .+1<CR>==", { desc = "Move line down 1 line" }) -- move line up(n)
 -- keymap.set("n", "<leader>ck", ":m .-2<CR>==", { desc = "Move line up 1 line" }) -- move line down(n)
--- Move to window using the <ctrl> hjkl keys
-keymap.del("n", "<C-h>")
-keymap.del("n", "<C-j>")
-keymap.del("n", "<C-k>")
-keymap.del("n", "<C-l>")

@@ -40,10 +40,10 @@ local modules = {
   ["core.dirman"] = {
     config = {
       workspaces = {
-        notes = "~/zed/neorg/notes",
+        notes = "~/zedmuir/neorg/notes",
       },
       default_workspace = "notes",
-      index = "~/zed/neorg/notes/index.norg",
+      index = "~/zedmuir/neorg/notes/index.norg",
     },
   },
 }
